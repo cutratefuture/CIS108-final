@@ -20,7 +20,7 @@ html, body {
 }
 html {
  /*full size background hero image and crossbrowser support */
-  background: url(../imgs/bg.jpg) no-repeat center center fixed;
+  background: url(http://cutratefuture.com/final/images/moshbo.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -125,7 +125,7 @@ aside.sidebar {
   width: 200px;
   padding-left: 1em;
   background-color: #222222;
-  background-image: url(../imgs/sidebg.jpg);
+  background-image: url(http://cutratefuture.com/final/images/sadbar.jpg);
   background-repeat: no-repeat;
   background-position: top right;
 }
