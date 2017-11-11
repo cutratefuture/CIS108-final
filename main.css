@@ -1,0 +1,140 @@
+/*
+==================
+SITE COLOR SCHEME
+==================
+#222222; black
+#f0f0f0, #aaa, #dfdfda; white(s)
+#b10000; red
+*/
+
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* UNIVERSAL CSS */
+html, body {
+  height: 50%;
+  font-family: 'Cabin', 'Droid Sans', sans-serif;
+  font-size: 16px;
+}
+html {
+ /*full size background hero image and crossbrowser support */
+  background: url(../imgs/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1, h2, h3 {
+  color: #dfdfda;
+  letter-spacing: 1px;
+  line-height: 1;
+  font-weight: 700; /* normal */
+}
+h1 {
+  font-size: 2.3em;
+}
+h2 {
+  font-size: 1.7em;
+}
+h3 {
+  margin: .6em auto;
+  font-size: 1.09em;
+}
+hr {
+  margin: 1em auto;
+}
+/* wrappers */
+div.content_wrapper {
+  width: 1000px;
+  height: 600px;
+}
+div.center-wrapper {
+  width: 810px;
+  height: 600px;
+  position: relative;
+}
+div.content_lg {
+  width: 600px;
+  height: 600px;
+  
+  background-color: #222;
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  
+  margin: -70px 0 0 -170px;
+}
+div.option-items {
+  color: #dfdfda;
+  margin: 25px;
+  padding: 15px;
+  font-size: 1em;
+}
+/* reduce reuse recycle */
+.liner {
+    color: #dfdfda;
+    text-align: center;
+    margin: .5em auto;
+}
+.sticky {
+    background-color: #222;
+  	width: 100%;
+    position:absolute;
+    height: 3em;
+}
+/* HEADER & FOOTER */
+header.header {
+    top:0px;
+}
+div.header-text {
+  font-size: .80em;
+}
+footer.footer {
+    bottom:0px;
+}
+div.footer-text {
+    font-size: .96em;
+    margin: .8em;
+}
+/* a links */
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #f0f0f0;
+}
+a:visited {
+  color: #aaa;
+}
+a:hover {
+  color: #ff0000;
+}
+a:active {
+  border: solid 1px #dfdfda;
+}
+/* navbar */
+aside.sidebar ul {
+  list-style-type: none;
+}
+aside.sidebar {
+  float: right;
+  margin-right: -15em;
+  height: 600px;
+  width: 200px;
+  padding-left: 1em;
+  background-color: #222222;
+  background-image: url(../imgs/sidebg.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+nav.sidebar-text {
+  font-family: 'Inconsolata', monospace;
+  text-align: left;
+  padding: 20% 25%;
+  margin-right: 30%;
+  font-size: 125%;
+  font-weight: 800;
+  letter-spacing: 4px;
+}
