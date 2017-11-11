@@ -113,7 +113,7 @@ img {
   padding: 1em;
   width: 19.5em;
   color: #000;
-  background: #dfe0e5 url('../images/cupcake2.png') repeat-x 15em -3em;
+  background: #dfe0e5 url('https://rawgit.com/cutratefuture/CIS108-final/master/imgs/cupcake2.png') repeat-x 15em -3em;
   background-position: top center;
   border-bottom: 1px solid #aaa;
   -moz-border-radius: 10px 10px 0 0;
