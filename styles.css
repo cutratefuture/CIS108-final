@@ -1,3 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
 /* Add some margin to the page and set a default font and colour */
 
 body {
@@ -32,7 +38,7 @@ img {
 
 #contactForm, .statusMessage, input[type="submit"], input[type="button"] {
   -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;  
+  -webkit-border-radius: 10px;
   border-radius: 10px;
 }
 
@@ -43,7 +49,7 @@ img {
   color: #666;
   background-color: #ebedf2;
   background: -webkit-gradient( linear, left bottom, left top, color-stop(0,#dfe1e5), color-stop(1, #ebedf2) );
-  background: -moz-linear-gradient( center bottom, #dfe1e5 0%, #ebedf2 100% );  
+  background: -moz-linear-gradient( center bottom, #dfe1e5 0%, #ebedf2 100% );
   border: 1px solid #aaa;
   -moz-box-shadow: 0 0 1em rgba(0, 0, 0, .5);
   -webkit-box-shadow: 0 0 1em rgba(0, 0, 0, .5);
@@ -105,12 +111,13 @@ img {
   letter-spacing: .05em;
   margin: 0 0 1em -.75em;
   padding: 1em;
-  width: 19.5em;  
-  color: #aeb6aa;
-  background: #dfe0e5 url('images/cupcake2.jpg') no-repeat 15em -3em; 
+  width: 19.5em;
+  color: #000;
+  background: #dfe0e5 url('../images/cupcake2.png') repeat-x 15em -3em;
+  background-position: top center;
   border-bottom: 1px solid #aaa;
   -moz-border-radius: 10px 10px 0 0;
-  -webkit-border-radius: 10px 10px 0 0;  
+  -webkit-border-radius: 10px 10px 0 0;
   border-radius: 10px 10px 0 0;
 }
 
@@ -158,7 +165,7 @@ input, textarea {
   font-size: 1em;
   border: 1px solid #aaa;
   -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;    
+  -webkit-border-radius: 5px;
   border-radius: 5px;
   -moz-box-shadow: rgba(0,0,0,.2) 0 1px 4px inset;
   -webkit-box-shadow: rgba(0,0,0,.2) 0 1px 4px inset;
@@ -200,7 +207,7 @@ input[type="submit"], input[type="button"] {
   padding: .5em;
   border: 1px solid #666;
   -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;  
+  -webkit-border-radius: 10px;
   border-radius: 10px;
   -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
@@ -256,3 +263,43 @@ input[type="button"] {
   color: #666;
   font-size: 1.5em;
 }
+
+</style>
+
+<!-- Some IE7 hacks and workarounds -->
+
+<!--[if lt IE 8]>
+<style>
+
+/* IE7 needs the fields to be floated as well as the labels */
+
+input, textarea {
+  float: right;
+}
+
+#formButtons {
+  clear: both;
+}
+
+/*
+  IE7 needs an ickier approach to vertical/horizontal centring with fixed positioning.
+  The negative margins are half the element's width/height.
+*/
+
+#contactForm.positioned, .statusMessage {
+  left: 50%;
+  top: 50%;
+}
+
+#contactForm.positioned {
+  margin-left: -20em;
+  margin-top: -16.5em;
+}
+
+.statusMessage {
+  margin-left: -15em;
+  margin-top: -1em;
+}
+
+</style>
+<![endif]-->
