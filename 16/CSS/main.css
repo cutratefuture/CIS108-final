@@ -1,1 +1,146 @@
+/*
+==================
+SITE COLOR SCHEME
+==================
+v2
+#222222; black
+#f0f0f0, #aaa, #dfdfda; white(s)
+#b10000; red
+*/
 
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* UNIVERSAL CSS */
+html, body {
+  height: 100%;
+  font-family: 'Cabin', 'Droid Sans', sans-serif;
+  font-size: 16px;
+}
+html {
+ /*full size background hero image and crossbrowser support */
+  background: url(../imgs/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1, h2, h3 {
+  color: #dfdfda;
+  letter-spacing: 1px;
+  line-height: 1;
+  font-weight: 700; /* normal */
+}
+h1 {
+  font-size: 2.3em;
+}
+h2 {
+  font-size: 1.7em;
+}
+h3 {
+  margin: .6em auto;
+  font-size: 1.09em;
+}
+hr {
+  margin: 1em auto;
+}
+ul {
+  list-style-type: none;
+}
+/* wrappers */
+div.content_wrapper {
+  width: 1000px;
+  height: 600px;
+  max-width:100%;
+}
+div.center-wrapper {
+  width: 810px;
+  height: 600px;
+
+  position: absolute;
+  top: 12%;
+  left: 20%;
+}
+div.content_large {
+  float: right;
+  position: relative;
+  top: -100%;
+  width: 600px;
+  height: 600px;
+  background-color: #222;
+}
+div.option-items {
+  color: #dfdfda;
+  margin: 25px;
+  padding: 15px;
+  font-size: 1em;
+}
+/* reduce reuse recycle */
+.liner {
+    color: #dfdfda;
+    text-align: center;
+    margin: .5em auto;
+}
+.sticky {
+    background-color: #222;
+  	width: 100%;
+    position:absolute;
+    height: 3em;
+}
+/* HEADER & FOOTER */
+header.header {
+    top:0px;
+}
+div.header-text {
+  font-size: .80em;
+}
+footer.footer {
+    bottom:0px;
+}
+div.footer-text {
+    font-size: .96em;
+    margin: .8em;
+}
+/* a links */
+a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+a:hover {
+  color: #b10000;
+}
+/* navbar */
+aside.sidebar {
+  height: 600px;
+  width: 200px;
+  background-color: #222222;
+  background-image: url(../imgs/sidebg.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+nav.sidebar-text {
+  font-family: 'Inconsolata', monospace;
+  padding: 5% 10%;
+  text-align: left;
+  font-size: 125%;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+/* List items */
+ul.subjects {
+	margin: 1em 0;
+  padding-left: 0;
+  list-style: none;
+}
+ul.pages {
+  padding-left: 2em;
+  list-style: square;
+  font-weight: normal;
+}
+.selected {
+  font-weight: bold;
+  text-decoration:underline;
+}
