@@ -21,7 +21,7 @@ html, body {
 }
 html {
  /*full size background hero image and crossbrowser support */
-  background: url(../imgs/bg.jpg) no-repeat center center fixed;
+  background: url(https://rawgit.com/cutratefuture/CIS108-final/master/16/imgs/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -116,7 +116,7 @@ aside.sidebar {
   height: 600px;
   width: 200px;
   background-color: #222222;
-  background-image: url(../imgs/sidebg.jpg);
+  background-image: url(https://rawgit.com/cutratefuture/CIS108-final/master/16/imgs/sidebg.jpg);
   background-repeat: no-repeat;
   background-position: top right;
 }
