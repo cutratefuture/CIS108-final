@@ -16,7 +16,7 @@ Primary Styling via BOOTSTRAP 3.3.7 (CDN Version)
 /*GENERAL BODY STUFF*/
 html,body {
  /*full size background image and some crossbrowser support */
-  background: url(../imgs/bg.jpg) no-repeat center center fixed;
+  background: url(https://rawgit.com/cutratefuture/CIS108-final/master/16/imgs/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -78,7 +78,7 @@ textarea, input, option, select {
   height: auto;
   min-height: 40em;
   width: 14em;
-  background: url(../imgs/sidebg.jpg) no-repeat top right;
+  background: url(https://rawgit.com/cutratefuture/CIS108-final/master/16/imgs/sidebg.jpg) no-repeat top right;
   margin-right: 1em; 
 }
 .sidebar-text {
