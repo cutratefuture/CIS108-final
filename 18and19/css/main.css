@@ -1,0 +1,130 @@
+/*
+CUSTOM CSS for FINAL CIS108
+11/25/17 - production code
+Christian Vasquez
+==================
+Site Color Scheme
+==================
+Lightest to Darkest
+#DFDFDA white
+#E7E7E2 off white
+#8D0D19 burgandy
+#222 black
+=================
+Primary Styling via BOOTSTRAP 3.3.7 (CDN Version)
+*/
+/*GENERAL BODY STUFF*/
+html,body {
+ /*full size background image and some crossbrowser support */
+  background: url(../imgs/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  padding-top: 7em;
+  font-family: 'Roboto Mono', monospace;
+  background-color: #222;
+}
+/*Tweaks*/
+.text-cf {
+  color: #222;
+}
+.text-cf h2, h5 {
+  padding-top: .25em;
+}
+.text-cf h2 {
+  margin: 0;
+}
+.navbar-cf {
+  font-family: 'Inconsolata', monospace;
+  background-color: #222;
+  color: #DFDFDA;
+  border: none;
+}
+.content-cf {
+  overflow: auto;
+  background-color: #222;
+  color: #E7E7E2;
+  min-height: 40em;
+  height: auto;
+}
+li {
+  list-style-type: none;
+}
+.jumbotron {
+  background-color: #E7E7E2;
+  color: #222;
+  margin: 2%;
+}
+textarea, input, option, select {
+  background-color: #dfdfda;
+}
+.btn {
+  background-color: #E7E7E2;
+  color: #222;
+}
+.page-header {
+  margin-top: .4em;
+}
+.table-hover {
+  width: 65%;
+  background-color: #c5c5c1;
+  color: #222;
+}
+/*SIDEBAR STUFF*/
+.sidebar {
+  height: auto;
+  min-height: 40em;
+  width: 14em;
+  background: url(../imgs/sidebg.jpg) no-repeat top right;
+  margin-right: 1em; 
+}
+.sidebar-text {
+  font-family: 'Inconsolata', monospace;
+  font-size: 125%;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+ul.subjects {
+	margin: 1em 0;
+  padding-left: 0;
+  list-style: none;
+  text-decoration: none;
+}
+ul.pages {
+  padding-left: 2em;
+  list-style: square;
+  font-weight: normal;
+}
+.selected {
+  font-weight: bold;
+  color: #8D0D19;
+}
+/* <a> tags */
+a {
+  text-decoration: none;
+  color: #E7E7E2;
+}
+a:hover {
+  color: #8D0D19;
+  text-decoration: none;
+}
+/* Misc */
+.message {
+  border: 2px solid #dfdfda;
+  color: #dfdfda;
+  font-weight: bold;
+  margin: .8em;
+  padding: .7em;
+}
+.error {
+  color: #dfdfda;
+  border: 2px solid #8D0D19;
+  margin: .5em;
+  padding: .2em;
+}
+.error ul {
+  padding: .4em;
+}
